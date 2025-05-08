@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "python scripts/build.py data/surrogates.csv public/assets/data.json && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -26,7 +28,5 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
-  },
-  "predeploy": "python scripts/build.py data/surrogates.csv public/assets/data.json && npm run build",
-  "deploy": "gh-pages -d dist"
+  }
 }
