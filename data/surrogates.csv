@@ -1,3 +1,11 @@
 Method,Year,Source,Backbone,GridType,Scenario,DOI,CodeURL
-DPUF,2019,J.FluidMech.,CNN,3.1.1 Regular Grid,"Cylinder Flow",,
-TF-Net,2020,KDD,CNN,3.1.1 Regular Grid,"Turbulent Flow",,
+DPUF,2019,J.FluidMech.,CNN,3.1.1 Regular Grid,Cylinder Flow,https://doi.org/10.1017/jfm.123456,
+TF-Net,2020,KDD2020,CNN,3.1.1 Regular Grid,Turbulent Flow,,https://github.com/example/TF-Net
+EquNet,2021,ICLR2021,CNN,3.1.1 Regular Grid,"Rayleigh-Bénard,Oceans,Heat",,
+RSteer,2022,ICML2022,CNN,3.1.1 Regular Grid,smoke,,
+GNS,2020,ICML2020,GNN,3.1.2 Irregular Mesh,Various materials,,
+MGN,2021,ICLR2021,GNN,3.1.2 Irregular Mesh,"CylinderFlow,Transonic",,
+MP-PDE,2022,ICLR2022,GNN,3.1.2 Irregular Mesh,"Burgers,Wave,Navier–Stokes",,
+Han et al.,2022,ICLR2022,GNN/Transformer,3.1.2 Irregular Mesh,"CylinderFlow,Transonic",,
+TIE,2022,ECCV2022,Transformer,3.1.2 Irregular Mesh,"FluidFall,FluidShake",,
+MAgNet,2022,NeurIPS2022,GNN/CNN,3.1.2 Irregular Mesh,Burgers,,
