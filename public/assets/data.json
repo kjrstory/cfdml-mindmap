@@ -1,0 +1,1 @@
+[{"Method":"DPUF","Year":2019,"Source":"J.FluidMech.","Backbone":"CNN","GridType":"3.1.1 Regular Grid","Scenario":"Cylinder Flow","DOI":null,"CodeURL":null},{"Method":"TF-Net","Year":2020,"Source":"KDD","Backbone":"CNN","GridType":"3.1.1 Regular Grid","Scenario":"Turbulent Flow","DOI":null,"CodeURL":null}]
