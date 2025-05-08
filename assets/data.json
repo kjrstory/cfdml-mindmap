@@ -22,15 +22,104 @@
       "year": 2019,
       "source": "J.FluidMech.",
       "scenario": "Cylinder Flow",
-      "url": null
+      "url": "https://doi.org/10.1017/jfm.123456"
     },
     {
       "id": "TF-Net",
       "label": "TF-Net (2020)",
       "parent": "3.1.1",
       "year": 2020,
-      "source": "KDD",
+      "source": "KDD2020",
       "scenario": "Turbulent Flow",
+      "url": "https://github.com/example/TF-Net"
+    },
+    {
+      "id": "EquNet",
+      "label": "EquNet (2021)",
+      "parent": "3.1.1",
+      "year": 2021,
+      "source": "ICLR2021",
+      "scenario": "Rayleigh-Bénard,Oceans,Heat",
+      "url": null
+    },
+    {
+      "id": "RSteer",
+      "label": "RSteer (2022)",
+      "parent": "3.1.1",
+      "year": 2022,
+      "source": "ICML2022",
+      "scenario": "smoke",
+      "url": null
+    },
+    {
+      "id": "GNN",
+      "label": "GNN",
+      "parent": "root",
+      "color": "#34d399"
+    },
+    {
+      "id": "3.1.2",
+      "label": "3.1.2 Irregular Mesh",
+      "parent": "GNN"
+    },
+    {
+      "id": "GNS",
+      "label": "GNS (2020)",
+      "parent": "3.1.2",
+      "year": 2020,
+      "source": "ICML2020",
+      "scenario": "Various materials",
+      "url": null
+    },
+    {
+      "id": "MGN",
+      "label": "MGN (2021)",
+      "parent": "3.1.2",
+      "year": 2021,
+      "source": "ICLR2021",
+      "scenario": "CylinderFlow,Transonic",
+      "url": null
+    },
+    {
+      "id": "MP-PDE",
+      "label": "MP-PDE (2022)",
+      "parent": "3.1.2",
+      "year": 2022,
+      "source": "ICLR2022",
+      "scenario": "Burgers,Wave,Navier–Stokes",
+      "url": null
+    },
+    {
+      "id": "Han et al.",
+      "label": "Han et al. (2022)",
+      "parent": "3.1.2",
+      "year": 2022,
+      "source": "ICLR2022",
+      "scenario": "CylinderFlow,Transonic",
+      "url": null
+    },
+    {
+      "id": "Transformer",
+      "label": "Transformer",
+      "parent": "root",
+      "color": "#f472b6"
+    },
+    {
+      "id": "TIE",
+      "label": "TIE (2022)",
+      "parent": "3.1.2",
+      "year": 2022,
+      "source": "ECCV2022",
+      "scenario": "FluidFall,FluidShake",
+      "url": null
+    },
+    {
+      "id": "MAgNet",
+      "label": "MAgNet (2022)",
+      "parent": "3.1.2",
+      "year": 2022,
+      "source": "NeurIPS2022",
+      "scenario": "Burgers",
       "url": null
     }
   ]
