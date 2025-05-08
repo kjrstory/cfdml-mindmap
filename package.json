@@ -1,14 +1,13 @@
 {
   "name": "cfdml-mindmap",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "build": "python scripts/build.py data/surrogates.csv public/assets/data.json && vite build",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "preview": "vite preview",
-    "predeploy": "python scripts/build.py data/surrogates.csv public/assets/data.json && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
